@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(/images/the-new-york-public-library-jTDcWt-wLoU-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh; 
+  }
+  
+  h1 {
+    font-family: "Arial", system-ui;
+    margin-left: 4rem;
+    color: #7629b5;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    background: linear(to right, #320575);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  form {
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(232, 230, 228);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center-flex;
+    align-items: center;
+  }
+  
+  input {
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 1rem;
+    padding: 5px;
+    border: 1px solid #320575;
+  }
+  
+  button {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 45px;
+    font-size: 16px;
+    font-family: "Arial", system-ui;
+    background: linear(to right, #320575);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  a {
+    margin-left: 4rem;
+    color: #9526c5;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
